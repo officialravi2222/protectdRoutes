@@ -6,7 +6,7 @@ const Contact = () => {
     return(
         <div>
 
-            <Link  to="/contact">Contact</Link>
+        <p>Contact us anytime</p>
 
         </div>
     )

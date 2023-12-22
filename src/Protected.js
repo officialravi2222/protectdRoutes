@@ -3,18 +3,18 @@ import { useNavigate } from 'react-router-dom';
 
 const Protected = (props) => {
 
-    const {Value} = props;
+    const {Component} = props;
     const navigate = useNavigate();
 
     useEffect(()=>{
        const  login = localStorage.getItem("Login")
 
-        if(login){
+        if(!login){
             navigate('/login')   
         }
     })
   return (
-    <div><Value/></div>
+    <div><Component/></div>
   )
 }
 

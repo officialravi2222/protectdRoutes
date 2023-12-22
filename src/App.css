@@ -2,3 +2,17 @@
     display: flex;
     justify-content: space-between;
 }
+.signUp{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 400;
+}
+p{
+    color: red;
+    font-size: 22px;
+}
